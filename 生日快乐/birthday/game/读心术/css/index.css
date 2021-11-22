@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container .board {
+    width: 300px;
+}
+
+.container .board .panel {
+    background: url(../img/bg.gif) no-repeat;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+}
+
+.container .board .panel .result {
+    position: absolute;
+    margin: auto;
+    transition: all .5s;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .dictionary {
+    margin-left: 2em;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template: repeat(20, 1fr)/repeat(5, .5fr);
+    grid-auto-flow: column;
+}
+
+.container .dictionary img {
+    height: 18px;
+    vertical-align: -2px;
+}
+
+.container .dictionary .number {
+    display: inline-block;
+    width: 30px;
+    text-align: right;
+    margin-right: .5em;
+}
+
+.back{
+    border:none;
+    position: fixed;
+    right:80px;
+    bottom: 100px;
+    width:100px;
+    height:50px;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 16px;
+    text-align: center;    
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(228, 105, 217);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+    .back:hover{
+        background-color: rgba(255, 0, 0, 1)''
+    }
+    .back:active{
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }

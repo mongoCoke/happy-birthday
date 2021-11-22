@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #45454d;
+}
+
+#game {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.score-box {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.holes {
+  width: 100%;
+  height: 600px;
+  cursor: url('./image/hammer.ico'), auto;
+}
+
+.holes::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.hole {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-image: url('./image/hole.png');
+  background-size: cover;
+}
+
+.hole div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hole .mouse {
+  background-image: url('./image/mouse.png');
+  }
+
+.hole .boom {
+  z-index: 1;
+  background-image: url('./image/boom.png');;
+}
+
+.back{
+  border:none;
+  position: fixed;
+  right:200px;
+  bottom: 100px;
+  width:100px;
+  height:50px;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 16px;
+  text-align: center;    
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(228, 105, 217);
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+  }
+  .back:hover{
+      background-color: rgba(255, 0, 0, 1)''
+  }
+  .back:active{
+      box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+  }

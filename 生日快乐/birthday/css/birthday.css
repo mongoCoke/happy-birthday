@@ -1,0 +1,360 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-size: 14px;
+    color: #333;
+}
+
+#myCarouselr{
+    height: 1500px;
+}
+
+/* top */
+.top{
+    position: relative;
+    background: linear-gradient(45deg,#6fc7b5 0%,#13bdce, 20%,#0094d9 40%,#ea4c89);
+    /* overflow: hidden; */
+    /* margin-right:-1px; */
+}
+
+.cake{
+    width:70px;
+    height:70px;
+    position: absolute;
+    left:-60px;
+    top:6px;
+}
+.cake img{
+    width:100%;
+    height:100%;
+}
+
+.banner-top .navigation {
+    background: linear-gradient(45deg,#6fc7b5 0%,#13bdce, 20%,#0094d9 40%,#ea4c89);
+}
+nav.navbar.navbar-default {
+    background: none;
+    border:none;
+}
+.container h1{
+    display:inline-block;   
+}
+.container h1,
+.container h4{
+    color:#fff;
+}
+.glyphicon{
+    color:#fff;
+    font-size:30px;
+    margin-right:10px;
+}
+.collapse .menu li a{
+    color:#fff;
+    font-weight: bolder;
+    font-size:20px;
+}
+.collapse .menu li a:hover{
+    color: #ef5734;
+}
+@media (max-width: 767px){
+    .menu__list {
+        background: #0a0a0a;
+        text-align: center;
+    }
+}
+@media (max-width:1000px){
+    .navbar{
+        max-height:100px;
+    } 
+}
+.banner-top{
+    /* background: url('../images/banner.jpg') no-repeat 0px 0px; */
+    background-size: cover;	
+    min-height:600px;
+    width:100%;
+}
+
+/* game */
+.game{
+    font-size:16px;
+    width:100%;
+    height:640px;
+    background: url('../images/chengbao.jpg') no-repeat center 0;
+}
+.game .container{
+    /* display:flex; */
+    width:100%;
+    height:100%;
+    justify-content: left;
+    margin:15px;
+    padding:45px 110px;
+    font-family:'font-family';
+    line-height: 30px;
+    font-size:18px;
+}
+.game .container h1{
+    display: flex;
+    justify-content: center;
+}
+.game .container p{
+    margin-right:12px;
+    text-indent:2em;
+    color:white;
+}
+.game .container a{
+    color:#ea4c89;
+    text-decoration: none;
+}
+
+.game .container a:hover{
+    color:#33cc99;
+}
+
+
+
+
+/* about */
+.about{
+    width:100%;
+}
+
+.about .about-main{
+    padding:20  px 70px;
+    margin-top:20px;
+}
+.about .about-left_img {
+    background: url('../images/coke.jpg') no-repeat center;
+    height: 642px;
+    background-size: cover;
+    background-position:fixed;
+    border-radius: 10px;
+}
+.about-top_agile_its h2 {
+
+	font-weight:600;
+	color: #000;
+	text-transform: uppercase;
+}
+.about-top_agile_its {
+     padding:20px;
+}
+.about-top_agile_its h5 {
+    font-size: 11px;
+    font-weight: 400;
+    color: #33cc99;
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #cec8c8;
+    margin: 0px 0px 15px 0px;
+    letter-spacing: 4px;
+}
+.about-top_agile_its span {
+    font-weight: 600;
+    font-style: italic;
+    color: #ef5734;
+    font-size: 10px;
+    line-height: 20px;
+}
+.about-top_agile_its p {
+  font-size:20px;
+  font-weight: 400;
+  color: #dfdd96;
+  line-height: 20px;
+  margin-bottom:10px;
+  text-indent:2em;
+  line-height: 25px;
+}
+
+@media (max-width:1000px){
+    .about .about-left_img{
+        width:550px;
+        height:550px;
+    }
+}
+
+/* gallery */
+#gallery {
+    padding-top:20px;
+}
+.gallery-grid {
+  padding: 0;
+}
+.gallery1 {
+    position:relative;
+}
+.gallery1 .textbox {
+   width:100%;
+   height:100%;
+   position:absolute;
+   top:0;
+   left:0;
+   transform: scale(0);
+    background-color: rgba(51, 204, 153, 0.83);
+}
+.gallery1:hover .textbox {
+   transform: scale(1);
+}
+.gallery-grid img{
+    width:100%;
+}
+
+.textbox {
+    transition: all 0.7s ease;
+    text-align:center;
+}
+
+.textbox p {
+   font-size: 26px;
+   color: #fff;
+   background: rgba(0, 0, 0, 0.83);
+   margin-top: 60%;
+   padding: 3px;
+}
+
+/* myphotos */
+.agileits_heading_section{
+    text-align: center;
+}
+.agileits_heading_section h3{
+    font-weight:bolder;
+    font-size:30px;
+    line-height:100px;
+}
+
+
+/* contact */
+.agile-footer{ 
+    background: url('../images/overlay.png') no-repeat;
+    /* padding-top: 100px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;    
+    height:600px;
+    width:100%;
+}
+
+
+/* video */
+.video{
+    width:400px;
+    height:400px;
+    margin:400px 0 0 500px;
+}
+.video video{
+    width:400px;
+    height:400px;
+}
+
+
+
+
+/* pig */
+.pig{
+    position:absolute;
+}
+.pig_1 img{
+    position: fixed;
+    width:150px;
+    right:7px;
+    bottom:10px;
+    animation: Pig1 2s infinite;
+}
+.pig_1 img:hover{
+    animation-play-state: paused;
+}
+@keyframes Pig1{
+    0% {
+        transform: scale(1) rotate(-25deg);
+    }
+    50% {
+        transform: scale(1.2) rotate(-25deg);
+    }    
+    100% {
+        transform: scale(1) rotate(-25deg);
+    }
+}
+
+.pig_2 img{
+    position: fixed;
+    z-index: 99;
+    left:-30px;
+    bottom:170px;
+    width:150px;
+    /* transform: scaleX(-1) rotate(-90deg); */
+    animation: Pig2 5s infinite linear;
+}
+.pig_2 img:hover{
+    animation-play-state: paused;
+}
+@keyframes Pig2{
+    0% {             
+        transform: translate(0px, 0px) scaleX(-1) rotate(-90deg);            
+     }            
+     50% {                
+        transform: translate(0px, -160px) scaleX(-1) rotate(-90deg);            
+     }            
+     100% {                
+        transform: translate(0px, 0px) scaleX(-1) rotate(-90deg);
+     }
+}
+
+
+
+/* 浮动漂浮物 */
+
+.float_snow{
+    width:100%;
+    height:100%;
+}
+.float_snow .snow{
+    position: fixed;
+    z-index: 999;
+    width:100px;
+    height:100px;
+    top:200px;
+    left:71%;
+    opacity: 0;
+    backface-visibility: visible;
+    animation:love 10s ease 3s infinite normal none running;
+} 
+.float_snow .snow img{
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+@keyframes love{
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate3D(-500px,1500px,0) rotate(-500deg);
+    }
+}
+
+
+.con{
+    padding:200px 0 0 100px;
+}
+
+.shengri{
+    width:220px;
+    height:250px;
+    padding-bottom:5px;
+
+}
+.shengri img{
+    width:100%;
+    height:100%
+}
+.shengri video{
+    width:100%;
+    height:100%;
+}
+

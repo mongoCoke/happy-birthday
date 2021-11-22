@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;    
+}
+.wrapper{
+    margin:150px auto;
+    width:400px;
+    height:600px;
+    border:1px solid #222;
+    position: relative;
+    overflow: hidden;
+}
+#go{
+    width:100%;
+    position: absolute;
+    top:0;
+    text-align: center;
+    z-index:99;
+}
+
+#go a{
+    display:block;
+    height:100px;
+    width:400px;
+    color:cyan;
+    background-color: #fff;
+    text-decoration: none;
+    border-bottom:3px dashed #eee;
+    font-size:60px;
+    font-weight:300;
+}
+#main{
+    width:400px;
+    height:600px;
+    position: relative;
+    top:-150px;
+    /* border:1px solid black; */
+}
+.row{
+    width:400px;
+    height:150px;
+}
+.row div{
+    width:99px;
+    height:149px;
+    border-left:1px solid #222;
+    border-bottom:1px solid #222;
+    float: left;
+    cursor: pointer;
+}
+
+.back{
+    border:none;
+    position: fixed;
+    right:200px;
+    bottom: 100px;
+    width:100px;
+    height:50px;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 16px;
+    text-align: center;    
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(228, 105, 217);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+    .back:hover{
+        background-color: rgba(255, 0, 0, 1)''
+    }
+    .back:active{
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }

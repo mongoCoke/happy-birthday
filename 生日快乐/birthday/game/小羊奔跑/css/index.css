@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* html,body{
+    width: 100%;
+    height: 100%;
+} */
+body{
+    overflow: hidden;
+}
+.stage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #4a96ee;
+    left: 0;
+    top: 0;
+    
+}
+
+.sheep{
+    position: absolute;
+    width: 164px;
+    height: 122px;
+    background: url(../img/sheep.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    right: -164px;
+    bottom: 0;
+    cursor: grabbing;
+
+}
+
+.back{
+    border:none;
+    position: fixed;
+    right:80px;
+    bottom: 180px;
+    width:100px;
+    height:50px;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 16px;
+    text-align: center;    
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(228, 105, 217);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+    .back:hover{
+        background-color: rgba(255, 0, 0, 1)''
+    }
+    .back:active{
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
